@@ -2,8 +2,13 @@
 using namespace std;
 
 int main() {
-	cout << "Tossing a coin..." << endl;
 	int heads = 0, tails = 0;
+	string name;
+	cout << "Who are you?" << endl;
+	cout << "> "; cin >> name;
+	cout << "Hello, " << name << "!" << endl;
+
+	cout << "Tossing a coin..." << endl;
 	
 	srand((unsigned)time(NULL));
 	for (int i = 1; i <= 3; i++) {
