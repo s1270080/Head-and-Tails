@@ -18,5 +18,6 @@ int main() {
 		}
 	}
 	cout << "Heads: " << heads << ", Tails: " << tails << endl;
+	cout << "You " << (heads > tails ? "won!" : "lost.") << endl;
 	return (0);
 }
